@@ -8,4 +8,4 @@ cd box
 git checkout master
 vagrant up --provider=virtualbox
 
-echo "If all is well above then you should be all set."
+echo "If all is well above then you should be all set. Feel free to remove the installs directory."
