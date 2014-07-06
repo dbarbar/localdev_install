@@ -3,7 +3,8 @@ description "Base server"
 run_list "recipe[jrdevsetup::tools]"
 default_attributes({
   "avahi" => {
-    "deny_interfaces" => [ "eth0" ]
+    "deny_interfaces" => [ "eth0" ],
+    "domain" => "sbdev"
   },
   "build_essential" => {
     "compiletime" => true
