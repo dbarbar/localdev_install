@@ -1,4 +1,4 @@
-installs
 .vagrant
 Berksfile.lock
 noob/*.dmg
+projects
