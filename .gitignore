@@ -1,2 +1,3 @@
 installs
-box
+.vagrant
+Berksfile.lock

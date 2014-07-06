@@ -1,0 +1,7 @@
+{
+  "id": "4x",
+  "domain_name": "4x.sbdev",
+  "domain_aliases": [],
+  "docroot": "/vagrant/projects/4x/docroot",
+  "db_name": "4x"
+}
