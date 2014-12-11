@@ -1,6 +1,6 @@
 name "base"
 description "Base server"
-run_list "recipe[jrdevsetup::tools]"
+run_list "recipe[jrdevsetup::default]"
 default_attributes({
   "avahi" => {
     "deny_interfaces" => [ "eth0" ],

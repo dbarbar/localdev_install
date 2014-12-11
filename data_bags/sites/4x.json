@@ -1,5 +1,7 @@
 {
   "id": "4x",
+  "name": "4x",
+  "drupal_version": "7.x",
   "domain_name": "4x.sbdev",
   "domain_aliases": [],
   "docroot": "/vagrant/projects/4x/docroot",

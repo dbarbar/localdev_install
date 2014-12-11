@@ -2,6 +2,9 @@ name "dbserver"
 description "Database server"
 run_list "recipe[jrdevsetup::database]"
 default_attributes({
+  "jr-mysql" => {
+    "bind_address" => "0.0.0.0"
+  },
   "mysql" => {
     "bind_address" => "0.0.0.0",
     "server_root_password" => "root",
