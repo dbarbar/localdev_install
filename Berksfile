@@ -1,6 +1,6 @@
 source "http://api.berkshelf.com"
 
-cookbook "jrdevsetup", "~> 0.2.3", github: "JacksonRiver/chef-jrdevsetup", branch: "refactor_david"
+cookbook "jrdevsetup", "~> 0.2.4", github: "JacksonRiver/chef-jrdevsetup", branch: "refactor_david"
 # cookbook "jr-hosted-springboard", git: "git@github.com:JacksonRiver/chef-jr-hosted-cookbook.git"
 # cookbook "jr-jenkins", github: "JacksonRiver/chef-jr-jenkins"
 # cookbook "ssl_certificates", github: "benclark/chef-ssl_certificates"
