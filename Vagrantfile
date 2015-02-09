@@ -10,10 +10,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Change this IP if you're having conflicts with other VMs.
   config.vm.network :private_network, ip: "192.168.100.100"
 
-  config.berkshelf.enabled = true
+  # config.berkshelf.enabled = true
 
   # Make sure Chef is the latest version.
-  config.omnibus.chef_version = :latest
+  # config.omnibus.chef_version = :latest
 
   config.vm.hostname = "sbdev"
 
