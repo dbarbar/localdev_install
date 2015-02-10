@@ -2,3 +2,4 @@
 Berksfile.lock
 noob/*.dmg
 projects
+.kitchen/
